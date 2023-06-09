@@ -6,7 +6,7 @@
 }
 
 :root {
-    --gold: #ffd700;
+    --gold: #ec557b;
     --ivory: #fffff0;
 }
 
@@ -25,25 +25,25 @@ body {
     justify-content: space-around;
 }
 
-ul {
+.menu ul {
     margin: 1rem;
     display: flex;
     justify-content: space-around;
 }
 
-li {
+.menu li {
     color: var(--ivory);
     list-style-type: none;
     font-size: larger;
     font-weight: bolder;
 }
 
-a {
+.menu a {
     color: var(--ivory);
     text-decoration: none;
 }
 
-a:hover {
+.menu a:hover {
     color: var(--gold);
     border-bottom: 1px solid var(--ivory);
 
@@ -52,6 +52,7 @@ a:hover {
 main {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     height: 100vh;
 }
 
@@ -148,7 +149,7 @@ main {
     }
 
     .social_network div {
-        width: 20rem;
+        width: 25rem;
         display: flex;
         justify-content: space-around;
     }

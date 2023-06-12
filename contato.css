@@ -104,6 +104,10 @@ main {
     width: 30rem;
 }
 
+.ativarCorBotao{
+    opacity: 1;
+} 
+
 .get_in_touch button {
     cursor: pointer;
     margin-top: 1rem;
@@ -115,6 +119,7 @@ main {
     position: relative;
     overflow: hidden;
     z-index: 1;
+    color: #28292a;
 
     &::after {
         content: '';
